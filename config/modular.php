@@ -6,7 +6,7 @@
 return [
 	'path' => base_path() . '/app/Modules',
 	'base_namespace' => 'App\Modules',
-	'groupWithoutPrefix' => 'Public',
+	'groupWithoutPrefix' => 'Pub',
 
 	'groupMiddleware' => [
 		'Admin' => [
@@ -19,7 +19,8 @@ return [
 		'Admin' => [
 			'Users',
 		],
-		'Public' => [
+		'Pub' => [
+			'Auth',
 		],
 	],
 ];
